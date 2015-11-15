@@ -1,0 +1,17 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "description": "Game of life on linked links date structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --watch test.js"
+  },
+  "author": "Denis Iogansen",
+  "dependencies": {
+    "babel": "^6.1.18",
+    "babel-core": "^6.1.21",
+    "babel-preset-es2015": "^6.1.18",
+    "mocha": "^2.3.3"
+  }
+}
+
